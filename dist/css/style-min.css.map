@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\..\\app\\scss\\style.scss"],"names":[],"mappings":"AAAA,qBAGE,qBAAA,CAGF,UAEE,eAAA","file":"style-min.css","sourcesContent":["*,\r\n*::after,\r\n*::before {\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  background: #000;\r\n}\r\n"]}
