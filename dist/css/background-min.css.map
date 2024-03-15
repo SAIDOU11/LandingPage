@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\..\\app\\scss\\components\\background.scss"],"names":[],"mappings":"AAAA,YACE,YAAA,CACA,UAAA","file":"background-min.css","sourcesContent":[".background {\r\n  height: 580px;\r\n  width: 100%;\r\n}\r\n"]}

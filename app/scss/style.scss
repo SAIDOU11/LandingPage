@@ -1,10 +1,2 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  background: #000;
-}
+@forward "base";
+@forward "components";
