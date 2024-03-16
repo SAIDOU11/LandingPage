@@ -3,14 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>A simple landing page</title>
   </head>
   <body>
-    <section class="background">
-      <img src="images/background.jpg" alt="Image marketing." />
-      <h1></h1>
-    </section>
-    <section class="form"></section>
+    <div class="container">
+      <div class="background">
+        <h1>Got marketing? advance your business insight.</h1>
+        <p>Fill out the form and receive our award winning newsletter.</p>
+      </div>
+      <div class="form">
+        <form action="signUp">
+          <label for="name">Name</label>
+          <br />
+          <input type="text" id="name" />
+
+          <label for="email">Email</label>
+          <br />
+          <input type="email" id="email" />
+          <button class="btn">Sign me up</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

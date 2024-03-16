@@ -15,3 +15,71 @@ img {
   width: 100%;
   height: 100%;
 }
+
+/* Typography */
+h1 {
+  font-size: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1,
+p,
+.btn {
+  color: #ffffff;
+}
+
+.btn {
+  background: #5200ff;
+  border: none;
+}
+
+label,
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+}
+
+/*  */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  @media (min-width: 846px) {
+    flex-direction: row;
+    width: 100vw;
+  }
+}
+
+.background {
+  background: url("./images/background.jpg");
+  background-size: cover;
+  height: 575px;
+
+  @media (min-width: 770px) {
+    background-size: contain;
+  }
+
+  @media (min-width: 846px) {
+    width: 100vw;
+    background-size: cover;
+  }
+}
+
+.form {
+  height: 563px;
+  @media (min-width: 770px) {
+  }
+
+  @media (min-width: 846px) {
+    width: 100vw;
+  }
+}
