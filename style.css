@@ -18,13 +18,18 @@ img {
 
 /* Typography */
 h1 {
-  font-size: 4rem;
+  margin-top: 0;
+  font-size: 3rem;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
+  @media (min-width: 600px) {
+    font-size: 4rem;
+  }
 }
 
 p {
-  font-size: 1.5rem;
+  margin-top: 0;
+  font-size: 1.2rem;
 }
 
 h1,
@@ -48,7 +53,7 @@ input {
   display: block;
 }
 
-/*  */
+/* main */
 .container {
   display: flex;
   flex-direction: column;
@@ -59,10 +64,24 @@ input {
   }
 }
 
-.background {
+.background::before {
+  content: "";
+  position: absolute;
   background: url("./images/background.jpg");
   background-size: cover;
-  height: 575px;
+  opacity: 0.22;
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #5200ff;
+  height: 100%;
 
   @media (min-width: 770px) {
     background-size: contain;
@@ -74,12 +93,22 @@ input {
   }
 }
 
+.background .title,
+.background .paragraph {
+  width: 70%;
+  text-align: center;
+}
+
 .form {
-  height: 563px;
+  height: 100%;
   @media (min-width: 770px) {
   }
 
   @media (min-width: 846px) {
     width: 100vw;
   }
+}
+
+.signup {
+  height: 100%;
 }
