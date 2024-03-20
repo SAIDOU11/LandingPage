@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.left-up,
+.right-down {
+  border: 2px solid #3f1515;
+}
 /*
 font-family: "Bebas Neue", sans-serif;
   font-family: "Poppins", sans-serif;
