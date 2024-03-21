@@ -4,11 +4,43 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
 .left-up,
 .right-down {
-  border: 2px solid #3f1515;
+  border: 2px solid #000;
+  padding: 6.75em 8vw;
 }
-/*
-font-family: "Bebas Neue", sans-serif;
-  font-family: "Poppins", sans-serif;
-*/
+
+.left-up {
+  background: #5200ff;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.left-up::before {
+  content: "";
+  position: absolute;
+  background: url("./images/background.jpg");
+  background-size: cover;
+  background-position: 100%;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+}
