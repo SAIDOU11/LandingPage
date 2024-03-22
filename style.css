@@ -11,13 +11,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* typography */
+
 h1 {
+  font-size: 4rem;
   font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.125rem;
 }
 
 .left-up,
 .right-down {
-  border: 2px solid #000;
+  border: 1px solid #5200ff;
   padding: 6.75em 8vw;
 }
 
@@ -30,11 +42,11 @@ h1 {
 
 .left-up::before {
   content: "";
-  position: absolute;
-  background: url("./images/background.jpg");
+  background: url(./images/background.jpg);
   background-size: cover;
   background-position: 100%;
   opacity: 0.2;
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
