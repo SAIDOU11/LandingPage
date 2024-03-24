@@ -16,39 +16,43 @@ body {
 h1 {
   margin: 0;
   font-size: 4rem;
-  line-height: 1.2;
   font-family: "Bebas Neue", sans-serif;
+  line-height: 1.2;
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 label {
   display: block;
-  font-weight: 500;
   font-size: 1.125rem;
-  margin-bottom: 0.77em;
+  font-weight: 500;
+  margin-bottom: 0.75em;
 }
 
 input {
   width: 100%;
+  margin-bottom: 0.75em;
   background: #ededed;
   border: 1px solid #c7c7c7;
-  padding: 0.75em;
   outline: none;
+  padding: 1em;
   margin-bottom: 2.5em;
 }
 
 .btn {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
+  font-size: 1.125rem;
   width: 100%;
   background: #5200ff;
-  color: #fff;
   border: none;
-  font-size: 1.125rem;
-  padding: 0.8em;
+  color: #fff;
+  padding: 0.75em;
+  cursor: pointer;
 }
 
 .left-up,
